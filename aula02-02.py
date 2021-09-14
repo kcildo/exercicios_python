@@ -1,6 +1,5 @@
 # Faça um Programa que leia três números e
 # mostre o maior e o menor deles.
-Pontos a serem tomadas:
 cont = maior = menor =  0 #declarando variáveis
 print('Digite 3 números. Após cada número tecle [ENTER]: ')
 while cont < 3:
