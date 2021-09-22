@@ -11,8 +11,8 @@ def preencheMatriz(): # Função para preencher matriz 6x3 reprensentando 6 alun
     for aluno in range(6):
         notas = []
         for nota in range(3):
-            notas.append(float(input('Digite a {}ª nota do aluno {}:  '.format(nota+1, aluno+1))))
-            # notas.append(round(uniform(4.0,10.0),1)) # adicionando números reais aleatórios utilizando o método uniform com uma casa decimal utilizando o método round
+            # notas.append(float(input('Digite a {}ª nota do aluno {}:  '.format(nota+1, aluno+1))))
+            notas.append(round(uniform(4.0,10.0),1)) # adicionando números reais aleatórios utilizando o método uniform com uma casa decimal utilizando o método round
         m.append(notas)
     return m
 def escreveMatriz(m): # escreve a matriz na tela
