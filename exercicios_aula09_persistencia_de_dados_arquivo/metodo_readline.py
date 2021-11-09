@@ -6,10 +6,11 @@
 # dados.close()
 
 #  lê a o texto todo
-nomeArquivo = input('Digite o nome do arquivo que deseja visualizar: ') # pede para o usuário entrar com o nome do arquivo a ser lido
-dados = open(nomeArquivo, 'r')
+nomeArquivo = input(
+    'Digite o nome do arquivo que deseja visualizar: ')  # pede para o usuário entrar com o nome do arquivo a ser lido
+dados = open(nomeArquivo, 'r', encoding='utf-8')
 linha = dados.readline()
 while linha != '':
- print(linha, end='')
- linha = dados.readline()
+    print(linha, end='')
+    linha = dados.readline()
 dados.close()
